@@ -70,6 +70,10 @@
           type: String,
           default: 'rgba(0,0,0,0.6)'
         },
+         imagesIndex: {
+          type: Number,
+          default: 1
+        },
         /*handleIconList: {
           type: Array,
           default () {
@@ -102,7 +106,7 @@
           bigImgUrl: this.imgData[0].url,
           bigImgName: this.imgData[0].name,
           imgLength: this.imgData.length,
-          imgIndex: 1,
+          imgIndex: this.imagesIndex,
           showTips: false,
           tipsText: '',
           bigImgConWidth: '',
