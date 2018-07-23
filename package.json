@@ -2,7 +2,7 @@
   "name": "dxl-vue-imagespreview",
   "description": "dxl-vue-imagespreview is a picture viewer for Vue.js.",
   "Keywords": "Vue.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "dingxiaolin",
   "license": "MIT",
   "private": false,
