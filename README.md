@@ -56,5 +56,4 @@ Work on Vue instance
 
 MIT
 
-Copyright (c) 2018-present, Joy Sang
-
+Copyright (c) 2018-present, dingxiaolin
