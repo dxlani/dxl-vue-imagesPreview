@@ -50,10 +50,12 @@ Work on Vue instance
   | -----| -----| -----| -----|
   | imgData| Array | imgUrl and imgName| - |
   | switch | Boolean | Whether to enable thumbnails | true |
+ ```
   methods:{
    watch(val){
       this.display=val;
   }
+ ```
 
 ## License
 
