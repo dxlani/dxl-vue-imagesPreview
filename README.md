@@ -41,7 +41,7 @@ $ npm install dxl-vue-imagespreview
 
 Work on Vue instance
 ```html
-   <dxl-vue-imagespreview :imgData="imgData" :switch="true"></dxl-vue-imagespreview>
+   <dxl-vue-imagespreview :imgData="imgData" :switch="false" :display="display" @watch="watch"></dxl-vue-imagespreview>
 ```
 ## Options
 
@@ -50,7 +50,10 @@ Work on Vue instance
   | -----| -----| -----| -----|
   | imgData| Array | imgUrl and imgName| - |
   | switch | Boolean | Whether to enable thumbnails | true |
-
+  methods:{
+   watch(val){
+      this.display=val;
+  }
 
 ## License
 
