@@ -35,7 +35,38 @@ $ npm install dxl-vue-imagespreview
    // as a component reference
    <dxl-vue-imagespreview></dxl-vue-imagespreview>
 ```
+```vue
+<template>
+  <div id="app">
+    <dxl-vue-imagespreview :imgData="imgUrl" :switch="true" v-if="imgUrl"></dxl-vue-imagespreview>
+  </div>
+</template>
 
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      imgUrl: [{
+          url:'http://p8ny46w8x.bkt.clouddn.com/test1.jpg',
+          name: 'test1.jpg'
+        },
+        {
+          url: 'http://p8ny46w8x.bkt.clouddn.com/test2.jpg',
+          name: 'test2.jpg'
+        }, {
+          url: 'http://p8ny46w8x.bkt.clouddn.com/test3.jpg',
+          name: 'test3.jpg'
+        },
+        {
+          url: 'http://p8ny46w8x.bkt.clouddn.com/test4.jpg',
+          name: 'test4.jpg'
+        }]
+    }
+  }
+}
+</script>
+```
 
 ## Usage
 
