@@ -56,7 +56,7 @@
 
 <script>
   export default {
-      name: 'dxl-vue-imagesPreview',
+      name: 'dxl-vue-imagespreview',
       props: {
         imgData: {
           type: Array,

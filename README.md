@@ -1,6 +1,6 @@
-# dxl-vue-imagesPreview
+# dxl-vue-imagespreview
 
-dxl-vue-imagesPreview is a picture viewer for Vue.js.
+dxl-vue-imagespreview is a picture viewer for Vue.js.
 
 
 ## Demo
@@ -10,7 +10,7 @@ dxl-vue-imagesPreview is a picture viewer for Vue.js.
 ## Install
 
 ```bash
-$ npm install dxl-vue-imagesPreview
+$ npm install dxl-vue-imagespreview
 ```
 
 ## Import
@@ -19,10 +19,10 @@ $ npm install dxl-vue-imagesPreview
 
 ```js
   // in ES6 modules
-  import vueimagesPreview from 'dxl-vue-imagesPreview'
+  import vueimagesPreview from 'dxl-vue-imagespreview'
 
   // in CommonJS
-  const vueimagesPreview = require('dxl-vue-imagesPreview')
+  const vueimagesPreview = require('dxl-vue-imagespreview')
   
   Vue.use(vueimagesPreview)
 ```
@@ -30,10 +30,10 @@ $ npm install dxl-vue-imagesPreview
 ### Import using script tag
 
 ```html
-   <script src="../node_modules/dxl-vue-imagesPreview/dist/dxl-vue-imagesPreview.js"></script>
+   <script src="../node_modules/dxl-vue-imagespreview/dist/dxl-vue-imagespreview.js"></script>
    
    // as a component reference
-   <dxl-vue-imagesPreview></dxl-vue-imagesPreview>
+   <dxl-vue-imagespreview></dxl-vue-imagespreview>
 ```
 
 
@@ -41,7 +41,7 @@ $ npm install dxl-vue-imagesPreview
 
 Work on Vue instance
 ```html
-   <dxl-vue-imagesPreview :imgData="imgData" :switch="true"></dxl-vue-imagesPreview>
+   <dxl-vue-imagespreview :imgData="imgData" :switch="true"></dxl-vue-imagespreview>
 ```
 ## Options
 

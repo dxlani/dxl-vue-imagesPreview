@@ -1,4 +1,4 @@
-import vueimagesPreview from './dxl-vue-imagesPreview'
+import vueimagesPreview from './dxl-vue-imagespreview'
 
 const imagesPreview = {
   install (Vue, options) {

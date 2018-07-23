@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     // filename: 'build.js',
-    filename: 'dxl-vue-imagesPreview.js',
+    filename: 'dxl-vue-imagespreview.js',
     library: 'pictureViewer',
     libraryTarget: 'umd',
     umdNamedDefine: true

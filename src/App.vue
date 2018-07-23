@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <dxl-vue-imagesPreview :imgData="imgUrl" :switch="true" v-if="imgUrl"></dxl-vue-imagesPreview>
+    <dxl-vue-imagespreview :imgData="imgUrl" :switch="true" v-if="imgUrl"></dxl-vue-imagespreview>
   </div>
 </template>
 
