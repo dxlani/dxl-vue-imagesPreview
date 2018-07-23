@@ -30,7 +30,7 @@ $ npm install dxl-vue-imagespreview
 ### Import using script tag
 
 ```html
-   <script src="../node_modules/dxl-vue-imagespreview/dist/dxl-vue-imagespreview.js"></script>
+   <script src="../node_modules/dxl-vue-imagesPreview/dist/dxl-vue-imagespreview.js"></script>
    
    // as a component reference
    <dxl-vue-imagespreview></dxl-vue-imagespreview>
